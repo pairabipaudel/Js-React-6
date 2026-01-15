@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.full_container{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(237, 246, 237);
+    width:500px;
+    height:400px;
+    border:2px solid green;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgba(11, 159, 11,0.5);
+}
+
+.exchange_btn_container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+#country1{
+    width:80px;
+    height:30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.exchange_country{
+    gap:25px;
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equalsTo button{
+    width:40px;
+    height:30px;
+    font-size:22px;
+    cursor: pointer;
+}
+
+.money_exchange_input{
+    margin-top: 25px;
+      gap:10px;
+}
+
+.money_exchange_input input{
+    width:150px;
+    height:30px;
+    font-size:18px;
+    padding: 10px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 5px;
+    color: green;
+}
+
+.money_exchange_input p{
+    padding-bottom:5px ;
+    color: rgb(1, 70, 1);
+    font-weight: 600;
+}
+
+.money_exchange_input button{
+    width:70px;
+    height:30px;
+    font-size:14px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 1px solid green;
+    background-color:green;
+    color: white;
+    border-radius: 5px;
+}
+
+.money_exchange_input button:hover{
+    background-color: rgba(0, 128, 0,0.8);
+}
+
+.money_exchange_input button:active{
+    transform: scale(0.98);
+}
+
+.title_exchange{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(2, 76, 2);
+}
+
+.money_exchange_display p{
+    margin-top: 20px;
+}
+
+.initial_country select, .final_country select{
+   border: 3px solid yellowgreen;
+   border-radius: 5px;
+   color: green;
+   outline: none;
+   font-weight: bold;
+}
+
+.equalsTo button{
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+.money_exchange_display p{
+    color:green
+}
+
